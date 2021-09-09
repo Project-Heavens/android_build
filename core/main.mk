@@ -154,6 +154,8 @@ else
   endif
 endif
 
+# Add Project-Heavens generic properties to the build properties.
+ADDITIONAL_BUILD_PROPERTIES += $(PRODUCT_GENERIC_PROPERTIES)
 
 # Bring in standard build system definitions.
 include $(BUILD_SYSTEM)/definitions.mk
